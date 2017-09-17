@@ -1,0 +1,183 @@
+body{
+	margin:0px;
+}
+
+#container{
+	margin:auto;
+	width:80%;
+	min-height:600px;
+}
+
+#topblock{
+	height:30px;
+	background:#5cb85c;
+	color:white;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+#one{
+	float:left;
+	font-weight:bold;
+	margin:5px;
+}
+#two{
+	float:right;
+	font-weight:bold;
+	margin:5px;
+}
+
+#infoblock{
+	height:100px;
+	margin:auto;
+	width:80%;
+}
+#logo{
+	height:70px;
+	width:70px;
+	border-radius:50px;
+	margin:15px;
+}
+
+#inforight{
+	float:right;
+	margin:40px;
+	
+}
+
+#smallbutton{
+	background:red;
+	color:white;
+	border-radius:5px;
+	border:px solid red;
+	font-weight:bold;
+}
+
+#topnav{
+	padding-left:10%;
+	padding-right:10%;
+	text-align:center;
+	min-height:30px;
+	padding:5px;
+	background:#f8f8f8;
+}
+
+#topnav ul{
+	list-style-type:none;
+}
+
+#topnav ul li{
+	display:inline;
+	margin:20px;
+}
+
+#topnav ul li a{
+	color:#5e5e5e;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#topnav ul li a:hover{
+	color:red;
+}
+
+.clearblock{
+	clear:both;
+}
+
+#banner{
+	height:100%;
+	width:100%;
+	border-radius:5px;
+}
+#topphoto{
+	width:70%;
+	float:left;
+	padding:10px;
+	height:300px;
+}
+
+#topenquiry{
+	width:25%;
+	float:left;
+	padding:10px;
+	height:280px;
+	background:skyblue;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+#topenquiry table tr{
+	height:40px;
+}
+
+.inputbox{
+	width:100%;
+	height:30px;
+	padding:5px;
+}
+
+#topenquiry table tr th #smallbutton{
+	height:40px;
+	margin-top:10px;
+}
+
+#leftnav{
+	width:25%;
+	padding:10px;
+	float:left;
+	min-height:400px;
+}
+
+#rightblock{
+	width:70%;
+	padding:10px;
+	float:left;
+	min-height:400px;
+}
+
+#leftnav ul{
+	list-style-type:none;
+}
+
+#leftnav ul li{
+	line-height:35px;
+	background:grey;
+	border-bottom:1px solid white;
+	margin-left:-40px;
+	padding-left:20px;
+}
+
+#leftnav ul li a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#leftnav ul li a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+.imagebox{
+	width:201px;
+	height:170px;
+	padding:10px;
+	background:orange;
+	margin:15px;
+	float:left;
+	border-radius:10px;
+}
+.myphoto{
+	height:100%;
+	width:100%;
+}
+
+#footerblock{
+	background:grey;
+	min-height:200px;
+	width:100%;
+	text-align:center;
+	color:white;
+}
